@@ -82,6 +82,7 @@ type Container struct {
 type RuntimeInfo struct {
 	Name    string
 	Options *types.Any
+// Test comment
 }
 
 // Store interacts with the underlying container storage
