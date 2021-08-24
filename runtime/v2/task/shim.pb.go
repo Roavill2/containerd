@@ -44,6 +44,7 @@ type CreateTaskRequest struct {
 	Checkpoint           string         `protobuf:"bytes,8,opt,name=checkpoint,proto3" json:"checkpoint,omitempty"`
 	ParentCheckpoint     string         `protobuf:"bytes,9,opt,name=parent_checkpoint,json=parentCheckpoint,proto3" json:"parent_checkpoint,omitempty"`
 	Options              *types1.Any    `protobuf:"bytes,10,opt,name=options,proto3" json:"options,omitempty"`
+	ImageOffload		 string			`protobuf:"bytes,10,opt,name=image_offload,proto3" json:"options,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}       `json:"-"`
 	XXX_unrecognized     []byte         `json:"-"`
 	XXX_sizecache        int32          `json:"-"`
