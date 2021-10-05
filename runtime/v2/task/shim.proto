@@ -62,7 +62,7 @@ message CreateTaskRequest {
 	string checkpoint = 8;
 	string parent_checkpoint = 9;
 	google.protobuf.Any options = 10;
-	string image_offload = 11;
+	bool image_offload = 11;
 }
 
 message CreateTaskResponse {
